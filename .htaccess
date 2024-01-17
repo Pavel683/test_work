@@ -1,0 +1,15 @@
+#Options -Indexes
+
+deny from all
+<Files "index.php">
+	allow from all
+</Files>
+
+<Files "folder.gif">
+	allow from all
+</Files>
+
+<Files "">
+	allow from all
+</Files>
+
